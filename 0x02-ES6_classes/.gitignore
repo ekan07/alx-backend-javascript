@@ -1,4 +1,2 @@
 node_modules/
-# Optional eslint cache
-.eslintcache
-[[:digit:]]-main.js
+[[:digit:]]*-main.js
