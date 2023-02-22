@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
   res.send('Hello Holberton School!');
 });
 
-app.listen(PORT, () => console.log('Listening on port ${PORT}\n'));
+app.listen(PORT, () => console.log(`Listening on port ${PORT}\n`));
 
 module.exports = app;
