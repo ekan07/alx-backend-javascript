@@ -1,6 +1,7 @@
 /**
  * Create a small http server using Express
  */
+
 const express = require('express');
 
 const app = express();
@@ -11,6 +12,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => console.log('Listening on port ${PORT}\n'));
-
 
 module.exports = app;
